@@ -1,0 +1,79 @@
+Problemset1-Problem1
+Name: Mohao Yi
+Email: mohaoyi@bu.edu
+
+1. 
+a. a == b
+b. a < b
+c. a > b
+d. a <= b
+e. a > b
+
+2. 
+b
+
+3. 
+a. 2bc
+b. 5bc
+c. 5bc
+d. bc5
+e. bc23
+
+4. 
+1) The "P" in "Public" should be in the lower case.
+2) The ")" on the last line should be "}".
+3) The "integer" on the second line should be void.
+4) The type of parameter x in the publication of method f should be declared.
+5) It should be x == 5 in the if condition.
+6) The "[String[] argv]" in the main method call should be (String[] argv).
+7) The "{" on the line below the publication of main method should be deleted.
+8) The call of println method in the main method should be System.out.println()
+9) The sentence to be printed should be enclosed with double quotation marks, instead of single quotation marks.
+10) There should be a semicolon at the end of the println method call.
+
+5. 
+   output       Tracing process:  i
+------------                   -------                     
+    3.0                           
+    10                            10
+    10                            10
+    ...                           ...
+    ...(infinite loop, and 10 is repeatedly printed) 
+
+6.
+   output          Tracing process:     i      j      A                                      i
+------------     The first for loop: -----------------------------   The second for loop : ------
+     1                                     |       | {1, 1, 1, 1}                            0
+     2                                  0  |  -1   |                                         1
+     4                                  1  |   0   | {1, 2, 1, 1}                            2
+     8                                     |  -1   |                                         3
+                                        2  |   1   | {1, 2, 3, 1}
+                                           |   0   | {1, 2, 4, 1}
+                                           |  -1   |
+                                        3  |   2   | {1, 2, 4, 5}
+                                           |   1   | {1, 2, 4, 7}
+                                           |   0   | {1, 2, 4, 8}
+                                        4  |       |
+
+
+7.
+   output          Tracing process:     i      A                                              i
+------------     The first for loop: ------------------------------   The second for loop : ------
+     2                                     | {1, 2, 3, 4, 5, 6}                               0
+     2                                  0  | {2, 2, 3, 4, 5, 6}                               1
+     6                                  1  |                                                  2
+     4                                  2  | {2, 2, 6, 4, 5, 6}                               3
+     5                                  3  |                                                  4
+     6                                  4  |                                                  5
+                                           | 
+                                       
+
+
+8. 
+A: all
+B: all
+C: 2
+D: 4 - 8
+E: 5 - 7
+F: 6
+G: all
